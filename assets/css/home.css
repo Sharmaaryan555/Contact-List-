@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin: 25px;
+    color: grey;
+}
+
+
+ul {
+    position: relative;
+    background: rgba(0, 183, 255, 0.6);
+    width: 450px;
+    margin: 40px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+}
+
+ul li {
+    display: flex;
+    background: rgba(255, 255, 255, 0.527);
+    padding: 5px 10px;
+    color: grey;
+    margin: 5px 0;
+    border-style: solid;
+    transition: .5s;
+}
+
+ul li p {
+    width: 400px;
+}
+
+
+
+form {
+    text-align: center;
+}
+
+input {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.delete-container a {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+}
+
+.delete-container i {
+    margin: 16px;
+    display: flex;
+}
+
+
+#submit {
+    background-color: rgba(0, 183, 255, 0.6);
+    border-radius: 19px;
+    color: gray;
+}
+
+/* Black */
